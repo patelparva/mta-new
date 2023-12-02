@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/Avenir\ Regular/Avenir\ Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #9992a7;
+}
+
+.logo img {
+  /* padding: 2px; */
+  width: 5vh;
+  align-self: center;
+}
+
+.login-btn {
+  background-color: #aa1e19;
+  border: 0;
+  font-weight: 600;
+  color: #f2cfcb;
+
+  transition: color, background-color, scale 0.5s;
+}
+
+.login-btn:hover {
+  background-color: #aa1e19;
+
+  font-weight: 600;
+  border: 0;
+  scale: 1.05;
+}
+
+.login-btn:active {
+  background-color: #aa1e19 !important;
+
+  box-shadow: 2px 2px 15px #000000;
+  /* scale: 1.5; */
+  transform: translateY(3px) translateX(-3px);
+}
+
+.login-btn-mbl {
+  background-color: #aa1e19;
+  border: 0;
+  font-weight: 600;
+  color: #f2cfcb;
+
+  transition: color, background-color, scale 0.5s;
+}
+
+.login-btn-mbl:hover {
+  background-color: #aa1e19;
+
+  font-weight: 600;
+  border: 0;
+  scale: 1.05;
+}
+
+.login-btn-mbl:active {
+  background-color: #aa1e19 !important;
+
+  box-shadow: 2px 2px 15px #000000;
+  /* scale: 1.5; */
+  transform: translateY(3px) translateX(-3px);
+}
+
+@media screen and (min-width: 700px) {
+  .login-btn {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .login-btn-mbl {
+    display: none;
+  }
+}
